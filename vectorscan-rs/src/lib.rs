@@ -4,7 +4,7 @@ mod wrapper;
 
 pub use error::{AsResult, Error, HyperscanErrorCode};
 pub use native::*;
-pub use wrapper::{Flag, Pattern, ScanMode, Scratch};
+pub use wrapper::*;
 
 #[cfg(test)]
 mod tests {
